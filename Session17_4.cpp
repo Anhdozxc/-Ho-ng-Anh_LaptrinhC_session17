@@ -103,7 +103,7 @@ void daoNguocMang(int *a, int n) {
 }
 void sapXepMang(int *a, int n) {
     int luaChon;
-    printf("\n--- MENU SAP XEP ---\n");
+    printf("\nMENU SAP XEP\n");
     printf("1. Tang dan\n");
     printf("2. Giam dan\n");
     printf("Lua chon cua ban: ");
@@ -139,7 +139,7 @@ void timKiemPhanTu(int *a, int n) {
             found = 1; 
         }
     }
-    if (found == 0) { // Ki?m tra bi?n d?m
+    if (found == 0) { 
         printf("Khong tim thay phan tu %d trong mang.", x);
     }
     printf("\n");
